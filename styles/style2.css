@@ -226,7 +226,11 @@ li {
     }
 }
 
-
+@media screen and (max-width: 764px) {
+    .page-wrapper {
+        padding: 24px;
+    }
+}
 
 @media screen and (max-width: 764px) {
     .page-subhead {
