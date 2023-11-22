@@ -32,7 +32,6 @@ a {
   max-width: 1161px;
   margin: 0px auto;
   max-height: 100%;
-  padding: 0px 38px
 }
 
 .header {
@@ -59,6 +58,7 @@ a {
   font-size: 48px;
   font-weight: 700;
   line-height: 100%;
+  padding-left: 16px;
   margin-bottom: 24px;
 }
 
@@ -72,12 +72,12 @@ a {
 
 .container {
   background-color: white;
-  width: 371px;
+  width: 364px;
   border-radius: 12px;
   overflow: hidden;
 }
 
-h2 {
+h2, h3 {
   font-family: "Anonymous Pro", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -117,7 +117,7 @@ p {
   height: 22.32px;
 }
 
-h3 {
+h4 {
   font-family: "Anonymous Pro", sans-serif;
   color: #A1A6B4;
   justify-content: center;
@@ -178,18 +178,25 @@ li {
   }
 }
 
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 751px) {
   .subtitle {
       font-size: 32px;
   }
 }
 
+@media screen and (max-width: 710px) {
+  .container {
+      width: 343px;
+  }
+}
+
+
 .container__image {
-  width: 370px;
+  width: 100%;
 }
 
 .container:hover {
+  transition: ease-in-out 200ms;
   transform: translateY(-10px);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  ;
 }
