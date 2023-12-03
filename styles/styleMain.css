@@ -32,13 +32,14 @@ a {
   max-width: 1161px;
   margin: 0px auto;
   max-height: 100%;
+  padding: 0px 38px;
 }
 
 .header {
   background-color: #FFFFFF;
   width: auto;
   height: auto;
-  border-bottom: 1px solid #A1A6B4
+  border-bottom: 1px solid #A1A6B4;
 }
 
 .header3 {
